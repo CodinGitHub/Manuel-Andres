@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./favorito.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
     <title>My sitio web</title>
 </head>
 <body>
@@ -17,20 +18,21 @@
     <a href="./contactos.html">Contactos</a>
 
     <!-- Enlaces -->
-    <a href="https://www.google.com/" target="_blank" >Google</a>
+    <a id="enlace-unico" href="https://www.google.com/" target="_blank" >Google</a>
 
     <!-- listas Ordenadas / Desordenadas -->
     <ol>
-        <li>Banana</li>
-        <li>naranja</li>
-        <li>pega</li>
+        <li class="item">Banana</li>
+        <li class="item">naranja</li>
+        <li class="item">pega</li>
     </ol>
     
     <!-- parrafos -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="https://www.youtube.com/c/CodingTube" target="_blank">Magnam</a>  doloremque nulla accusantium, voluptatum quos sapiente maiores enim <b>laboriosam</b>  modi minus delectus repudiandae voluptatibus distinctio commodi mollitia saepe! Nostrum, explicabo porro!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a id="magnam" href="https://www.youtube.com/c/CodingTube" target="_blank">Magnam</a>  doloremque nulla accusantium, voluptatum quos sapiente maiores enim <b>laboriosam</b>  modi minus delectus repudiandae voluptatibus distinctio commodi mollitia saepe! Nostrum, explicabo porro!</p>
 
     <!-- imagenes -->
-    <img src="./favorito.png" alt="Estrella">
-   
+    <div class="imagen-contenedor">
+        <img id="imagen" class="imagen-estrella" src="./favorito.png" alt="Estrella">
+    </div>
 </body>
 </html>
